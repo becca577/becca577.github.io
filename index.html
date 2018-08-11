@@ -19,7 +19,23 @@
         margin: 32px auto;
         width: 75%;
       }
-      
+      div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 75%
+      }
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      div.gallery img {
+        width: 75%;
+        height: auto;
+      }
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
     </style>
   </head>
   <body>
@@ -27,7 +43,8 @@
     <p style='text-align: center; margin 8px 0 48px 0;'>Hello, I'm <b>Rebecca Kanter.</b> <br>
     I am a musician, scientist, engineer, campaign staffer, and junior at LaGuardia High School of the Arts. <br>
     Welcome to my website! </p>
-    <div class='container'>
+    
+   <div class='container'>
     <h2>Music:</h2>
     <ul>
       <li>I have been playing flute since first grade. Since then, I have picked up the oboe, violin, piccolo, and english horn.</li>
@@ -37,7 +54,14 @@
       <li>I have performed at Symphony Space, Jazz at Lincoln Center, the Hunter Kaye Playhouse, 
       the Met Museum, the Brooklyn Museum, and Carnegie Hall.</li>
     </ul>
-    <img src='thisisit.jpg'>
+   
+    <div class="gallery">
+      <a target="_blank" href="Louisarmstronggala.jpg">
+        <img src="Louisarmstronggala.jpg" alt="Louis Armstrong Gala" width="300" height="200">
+      </a>
+      <div class="desc">Performing at the Louis Armstrong Gala at Capitale NY!</div>
+      </div>
+    
     <h2>Political Campaigning:</h2>
     <ul>
       <li>I was a political campaign intern on the Clyde Williams for Congress Campaign.
